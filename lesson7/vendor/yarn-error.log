@@ -1,0 +1,35 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add mocha-phantomjs -D
+
+PATH: 
+  /Users/liukang/.rvm/gems/ruby-2.3.0/bin:/Users/liukang/.rvm/gems/ruby-2.3.0@global/bin:/Users/liukang/.rvm/rubies/ruby-2.3.0/bin:/Users/liukang/.rvm/bin:/usr/local/Cellar/postgresql/10.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin
+
+Yarn version: 
+  1.2.1
+
+Node version: 
+  8.6.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "vendor",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/adm-zip/-/adm-zip-0.2.1.tgz: ETIMEDOUT
+      at Timeout._onTimeout (/usr/local/lib/node_modules/yarn/lib/cli.js:123675:19)
+      at ontimeout (timers.js:469:11)
+      at tryOnTimeout (timers.js:304:5)
+      at Timer.listOnTimeout (timers.js:264:5)
